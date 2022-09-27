@@ -1,3 +1,12 @@
+nav {
+    box-sizing: border-box;
+    text-align: initial;
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: #85d4b7;
+}
+
 #navLogo {
     box-sizing: border-box;
     margin-left: 5vw ;
@@ -11,14 +20,7 @@
     height: 50px;
 }
 
-nav {
-    box-sizing: border-box;
-    text-align: initial;
-    display: flex;
-    width: 100%;
-    height: 100px;
-    background-color: #85d4b7;
-}
+
 
 #vegan {
     box-sizing: border-box;
@@ -33,26 +35,35 @@ nav {
 
 footer {
     box-sizing: border-box;
-    text-align: center;
-    width: 100%;
-    height: 130px;
+    width: 100vw;
+    height: 10vh;
     background-color: #6dccaa;
 }
 
-#address {
+#address, #socials {
     box-sizing: border-box;
-    margin-left: 1vw ;
     margin-top: auto;
     margin-bottom: auto;
-    text-align: left;
-    width: 20vw;
-    height: 130px;
+    width: 40vw;
+    height: 10vh;
+}
+
+#address {
+    margin-left: 1vw ;
+    float: left;
+}
+
+#socials {
+    color: azure;
+    margin-right: 1vw;
+    text-align: center;
+    float: right;
 }
 
 #coaching-crowdfunding {
     box-sizing: border-box;
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 800px;
     background-color: white;
 }
@@ -79,7 +90,7 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 100%;
+    width: 100vw;
     height: 520px;
     background-color: #ffcf3f;
 }
@@ -87,7 +98,7 @@ footer {
 #winkel {
     box-sizing: border-box;
     text-align: center;
-    width: 100%;
+    width: 100vw;
     height: 500px;
     background-color: rgb(221, 208, 208);
 }

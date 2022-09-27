@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 #raleway{
     color: #404040;
-    font-family: Raleway-Regular;
+    font-family: 'Raleway', sans-serif;
 }
 
 #montserrat{
     color: #333333;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
+}
+
+#footerStyle{
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#socials a{
+    color: azure;
+    font-size: 50px;
 }
